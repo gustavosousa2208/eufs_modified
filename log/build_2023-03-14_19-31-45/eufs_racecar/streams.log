@@ -1,0 +1,20 @@
+[0.805s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_racecar': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_racecar/build
+[1.005s] running develop
+[1.125s] Removing /home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages/eufs-racecar.egg-link (link to .)
+[1.150s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_racecar' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_racecar/build
+[1.152s] Invoking command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_racecar': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_racecar build --build-base /home/gustavo/eufs_sim_teste/build/eufs_racecar/build install --record /home/gustavo/eufs_sim_teste/build/eufs_racecar/install.log --single-version-externally-managed
+[1.355s] running egg_info
+[1.356s] writing ../../build/eufs_racecar/eufs_racecar.egg-info/PKG-INFO
+[1.358s] writing dependency_links to ../../build/eufs_racecar/eufs_racecar.egg-info/dependency_links.txt
+[1.359s] writing requirements to ../../build/eufs_racecar/eufs_racecar.egg-info/requires.txt
+[1.359s] writing top-level names to ../../build/eufs_racecar/eufs_racecar.egg-info/top_level.txt
+[1.359s] reading manifest file '../../build/eufs_racecar/eufs_racecar.egg-info/SOURCES.txt'
+[1.360s] writing manifest file '../../build/eufs_racecar/eufs_racecar.egg-info/SOURCES.txt'
+[1.360s] running build
+[1.360s] running install
+[1.361s] running install_data
+[1.362s] running install_egg_info
+[1.364s] Copying ../../build/eufs_racecar/eufs_racecar.egg-info to /home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages/eufs_racecar-2.0.0-py3.8.egg-info
+[1.365s] running install_scripts
+[1.380s] writing list of installed files to '/home/gustavo/eufs_sim_teste/build/eufs_racecar/install.log'
+[1.410s] Invoked command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_racecar' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_racecar build --build-base /home/gustavo/eufs_sim_teste/build/eufs_racecar/build install --record /home/gustavo/eufs_sim_teste/build/eufs_racecar/install.log --single-version-externally-managed

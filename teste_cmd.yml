@@ -1,0 +1,4 @@
+{  
+  header: { stamp: { sec: 1678470720, nanosec: 388939733, frame_id: '' } }, 
+  drive: { steering_angle: 1.0, steering_angle_velocity: 0.0, speed: 0.0, acceleration: 1.0, jerk: 0.0 } 
+}

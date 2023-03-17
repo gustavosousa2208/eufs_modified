@@ -1,0 +1,42 @@
+[0.023s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_models': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_models -- -j8 -l8
+[0.077s] [100%] Built target eufs_models
+[0.260s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_models' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_models -- -j8 -l8
+[0.489s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_models': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_models
+[0.496s] -- Install configuration: ""
+[0.496s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/library_path.sh
+[0.496s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/library_path.dsv
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/dynamic_bicycle.hpp
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/eufs_models.hpp
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/noise.hpp
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/point_mass.hpp
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_input.hpp
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_model.hpp
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_param.hpp
+[0.497s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_state.hpp
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/lib/libeufs_models.a
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/package_run_dependencies/eufs_models
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/parent_prefix_path/eufs_models
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/ament_prefix_path.sh
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/ament_prefix_path.dsv
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/path.sh
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/path.dsv
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.bash
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.sh
+[0.498s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.zsh
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.dsv
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.dsv
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/packages/eufs_models
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport-noconfig.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_libraries-extras.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_targets-extras.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig-version.cmake
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.xml
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/models/models.txt
+[0.499s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/config/noise.yaml
+[0.507s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_models' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_models

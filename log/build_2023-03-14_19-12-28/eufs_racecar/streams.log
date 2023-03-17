@@ -1,0 +1,17 @@
+[1.968s] Invoking command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_racecar': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_racecar build --build-base /home/gustavo/eufs_sim_teste/build/eufs_racecar/build install --record /home/gustavo/eufs_sim_teste/build/eufs_racecar/install.log --single-version-externally-managed
+[2.173s] running egg_info
+[2.174s] writing ../../build/eufs_racecar/eufs_racecar.egg-info/PKG-INFO
+[2.174s] writing dependency_links to ../../build/eufs_racecar/eufs_racecar.egg-info/dependency_links.txt
+[2.175s] writing requirements to ../../build/eufs_racecar/eufs_racecar.egg-info/requires.txt
+[2.175s] writing top-level names to ../../build/eufs_racecar/eufs_racecar.egg-info/top_level.txt
+[2.230s] reading manifest file '../../build/eufs_racecar/eufs_racecar.egg-info/SOURCES.txt'
+[2.230s] writing manifest file '../../build/eufs_racecar/eufs_racecar.egg-info/SOURCES.txt'
+[2.230s] running build
+[2.230s] running install
+[2.230s] running install_data
+[2.231s] running install_egg_info
+[2.236s] removing '/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages/eufs_racecar-2.0.0-py3.8.egg-info' (and everything under it)
+[2.236s] Copying ../../build/eufs_racecar/eufs_racecar.egg-info to /home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages/eufs_racecar-2.0.0-py3.8.egg-info
+[2.236s] running install_scripts
+[2.250s] writing list of installed files to '/home/gustavo/eufs_sim_teste/build/eufs_racecar/install.log'
+[2.460s] Invoked command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_racecar' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_racecar build --build-base /home/gustavo/eufs_sim_teste/build/eufs_racecar/build install --record /home/gustavo/eufs_sim_teste/build/eufs_racecar/install.log --single-version-externally-managed

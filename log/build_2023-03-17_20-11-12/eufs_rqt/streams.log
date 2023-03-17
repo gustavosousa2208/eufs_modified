@@ -1,0 +1,27 @@
+[0.552s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build
+[0.761s] running develop
+[0.849s] Note: you must uninstall or replace scripts manually!
+[0.867s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build
+[0.870s] Invoking command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_rqt build --build-base /home/gustavo/eufs_sim_teste/build/eufs_rqt/build install --record /home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log --single-version-externally-managed
+[1.039s] running egg_info
+[1.039s] writing ../../build/eufs_rqt/eufs_rqt.egg-info/PKG-INFO
+[1.039s] writing dependency_links to ../../build/eufs_rqt/eufs_rqt.egg-info/dependency_links.txt
+[1.039s] writing requirements to ../../build/eufs_rqt/eufs_rqt.egg-info/requires.txt
+[1.039s] writing top-level names to ../../build/eufs_rqt/eufs_rqt.egg-info/top_level.txt
+[1.042s] reading manifest file '../../build/eufs_rqt/eufs_rqt.egg-info/SOURCES.txt'
+[1.042s] adding license file 'LICENSE'
+[1.043s] writing manifest file '../../build/eufs_rqt/eufs_rqt.egg-info/SOURCES.txt'
+[1.043s] running build
+[1.043s] running build_py
+[1.043s] running build_scripts
+[1.043s] running install
+[1.044s] running install_lib
+[1.045s] running install_data
+[1.046s] running install_egg_info
+[1.047s] removing '/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt-2.0.0-py3.8.egg-info' (and everything under it)
+[1.047s] Copying ../../build/eufs_rqt/eufs_rqt.egg-info to /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt-2.0.0-py3.8.egg-info
+[1.047s] running install_scripts
+[1.060s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt/eufs_robot_steering_gui to 775
+[1.060s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt/mission_control_gui to 775
+[1.062s] writing list of installed files to '/home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log'
+[1.086s] Invoked command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_rqt build --build-base /home/gustavo/eufs_sim_teste/build/eufs_rqt/build install --record /home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log --single-version-externally-managed

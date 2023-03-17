@@ -1,0 +1,30 @@
+[0.564s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_launcher': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_tracks:${AMENT_PREFIX_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_launcher/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_launcher/build
+[0.806s] running develop
+[0.923s] Removing /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages/eufs-launcher.egg-link (link to src)
+[0.923s] Note: you must uninstall or replace scripts manually!
+[0.946s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_launcher' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_tracks:${AMENT_PREFIX_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_launcher/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_launcher/build
+[0.948s] Invoking command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_launcher': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_tracks:${AMENT_PREFIX_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_launcher/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_launcher build --build-base /home/gustavo/eufs_sim_teste/build/eufs_launcher/build install --record /home/gustavo/eufs_sim_teste/build/eufs_launcher/install.log --single-version-externally-managed
+[1.140s] running egg_info
+[1.141s] writing ../../build/eufs_launcher/eufs_launcher.egg-info/PKG-INFO
+[1.141s] writing dependency_links to ../../build/eufs_launcher/eufs_launcher.egg-info/dependency_links.txt
+[1.141s] writing requirements to ../../build/eufs_launcher/eufs_launcher.egg-info/requires.txt
+[1.141s] writing top-level names to ../../build/eufs_launcher/eufs_launcher.egg-info/top_level.txt
+[1.145s] reading manifest file '../../build/eufs_launcher/eufs_launcher.egg-info/SOURCES.txt'
+[1.146s] writing manifest file '../../build/eufs_launcher/eufs_launcher.egg-info/SOURCES.txt'
+[1.146s] running build
+[1.146s] running build_py
+[1.146s] running build_scripts
+[1.146s] running install
+[1.147s] running install_lib
+[1.148s] creating /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages/eufs_launcher
+[1.148s] copying /home/gustavo/eufs_sim_teste/build/eufs_launcher/build/lib/eufs_launcher/LauncherModule.py -> /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages/eufs_launcher
+[1.148s] copying /home/gustavo/eufs_sim_teste/build/eufs_launcher/build/lib/eufs_launcher/__init__.py -> /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages/eufs_launcher
+[1.148s] byte-compiling /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages/eufs_launcher/LauncherModule.py to LauncherModule.cpython-38.pyc
+[1.151s] byte-compiling /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages/eufs_launcher/__init__.py to __init__.cpython-38.pyc
+[1.151s] running install_data
+[1.151s] running install_egg_info
+[1.153s] Copying ../../build/eufs_launcher/eufs_launcher.egg-info to /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages/eufs_launcher-2.0.0-py3.8.egg-info
+[1.153s] running install_scripts
+[1.167s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/eufs_launcher/eufs_launcher to 775
+[1.169s] writing list of installed files to '/home/gustavo/eufs_sim_teste/build/eufs_launcher/install.log'
+[1.225s] Invoked command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_launcher' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_tracks:${AMENT_PREFIX_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_launcher/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_launcher build --build-base /home/gustavo/eufs_sim_teste/build/eufs_launcher/build install --record /home/gustavo/eufs_sim_teste/build/eufs_launcher/install.log --single-version-externally-managed

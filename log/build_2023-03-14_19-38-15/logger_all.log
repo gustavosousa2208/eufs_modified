@@ -1,0 +1,317 @@
+[0.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'eufs_tracks', '--event-handlers', 'console_cohesion+']
+[0.286s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=['console_cohesion+'], executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f25cbb908e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['eufs_tracks'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f25cbb908e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f25cbb90e50>)
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.306s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gustavo/eufs_sim_teste'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_msgs' with type 'ros.ament_cmake' and name 'eufs_msgs'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_launcher' with type 'ros.ament_python' and name 'eufs_launcher'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_models' with type 'ros.ament_cmake' and name 'eufs_models'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_plugins' with type 'ros.ament_cmake' and name 'eufs_plugins'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_racecar' with type 'ros.ament_python' and name 'eufs_racecar'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_rqt' with type 'ros.ament_python' and name 'eufs_rqt'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_sensors' with type 'ros.ament_cmake' and name 'eufs_sensors'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_tracks' with type 'ros.ament_python' and name 'eufs_tracks'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/install) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.349s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eufs_msgs' in 'eufs_msgs'
+[0.349s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eufs_racecar' in 'eufs_sim/eufs_racecar'
+[0.349s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eufs_sensors' in 'eufs_sim/eufs_sensors'
+[0.349s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eufs_launcher' in 'eufs_sim/eufs_launcher'
+[0.349s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eufs_models' in 'eufs_sim/eufs_models'
+[0.349s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eufs_rqt' in 'eufs_sim/eufs_rqt'
+[0.349s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eufs_plugins' in 'eufs_sim/eufs_plugins'
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/gustavo/eufs_sim_teste/install
+[0.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/galactic
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.406s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'eufs_tracks' is in: /home/gustavo/eufs_sim_teste/install/eufs_tracks
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding eufs_tracks
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_tracks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_tracks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_tracks', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks', 'symlink_install': True, 'test_result_base': None}
+[0.409s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.415s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks' with build type 'ament_python'
+[0.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_tracks', 'ament_prefix_path')
+[0.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/ament_prefix_path.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/ament_prefix_path.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/ament_prefix_path.sh'
+[0.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.628s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks'
+[0.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.xml
+[0.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/plugin.xml
+[0.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/ament_index/resource_index/packages/eufs_tracks
+[0.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/acceleration.csv
+[0.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/boa_constrictor.csv
+[0.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/bone.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/comp_2021.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/garden_light.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/hairpins_increasing_difficulty.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/its_a_mess.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/peanut.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/rand.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/rectangle.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/skidpad.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/csv/small_track.csv
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/image/comp_2021.png
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/image/skidpad.png
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/acceleration.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/boa_constrictor.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/comp_2021.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/empty.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/eufs_track_generator.launch.py
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/garden_light.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/hairpins_increasing_difficulty.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/its_a_mess.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/peanut.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/rand.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/rectangle.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/skidpad.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/small_track.launch
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/launch/blacklist.txt
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/materials/asphalt.jpg
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/meshes/MonkeyNoise.dae
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/meshes/NoiseCube.dae
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/meshes/cone.dae
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/meshes/cone_big.dae
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/meshes/cone_blue.dae
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/meshes/cone_yellow.dae
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/acceleration.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/boa_constrictor.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/comp_2021.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/garden_light.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/hairpins_increasing_difficulty.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/its_a_mess.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/peanut.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/rand.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/rectangle.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/skidpad.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/small_track.world
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/resource/randgen_model_template/model.sdf
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/resource/noiseFiles.txt
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/resource/randgen_launch_template
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/resource/randgen_world_template
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/resource/conversion_tool.ui
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/acceleration/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/acceleration/model.sdf
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/big_cone/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/big_cone/model.sdf
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/blue_cone/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/blue_cone/model.sdf
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/boa_constrictor/model.sdf
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/comp_2021/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/comp_2021/model.sdf
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/garden_light/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/garden_light/model.sdf
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/ground_plane/model.config
+[0.939s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/ground_plane/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/ground_plane/ufc.png
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/ground_plane/ground_plane.material
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/hairpins_increasing_difficulty/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/its_a_mess/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/its_a_mess/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/orange_cone/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/orange_cone/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/peanut/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/peanut/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/rand/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/rand/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/rectangle/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/rectangle/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/skidpad/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/skidpad/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/small_track/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/small_track/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/yellow_cone/model.config
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/yellow_cone/model.sdf
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks/eufs_tracks_converter
+[0.940s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks/eufs_tracks_generator
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_tracks': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_tracks/build --no-deps install_data
+[1.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_tracks', 'pythonpath_develop')
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_tracks/share/eufs_tracks/hook/pythonpath_develop.ps1'
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_tracks' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_tracks/build --no-deps install_data
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/build/eufs_tracks/share/eufs_tracks/hook/pythonpath_develop.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_tracks/share/eufs_tracks/hook/pythonpath_develop.sh'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks' for CMake module files
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks' for CMake config files
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/bin'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/pkgconfig/eufs_tracks.pc'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages'
+[1.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_tracks', 'pythonpath')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/pythonpath.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/pythonpath.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/pythonpath.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_tracks)
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.dsv'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.sh'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.bash'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.zsh'
+[1.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/colcon-core/packages/eufs_tracks)
+[1.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.321s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.326s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.326s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.336s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gustavo/eufs_sim_teste/install/_local_setup_util_ps1.py'
+[1.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.sh'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gustavo/eufs_sim_teste/install/_local_setup_util_sh.py'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.bash'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.zsh'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.zsh'

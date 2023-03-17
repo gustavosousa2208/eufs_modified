@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing eufs_tracks.egg-info/PKG-INFO
+writing dependency_links to eufs_tracks.egg-info/dependency_links.txt
+writing entry points to eufs_tracks.egg-info/entry_points.txt
+writing requirements to eufs_tracks.egg-info/requires.txt
+writing top-level names to eufs_tracks.egg-info/top_level.txt
+reading manifest file 'eufs_tracks.egg-info/SOURCES.txt'
+writing manifest file 'eufs_tracks.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages/eufs-tracks.egg-link (link to .)
+Installing eufs_tracks_converter script to /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks
+Installing eufs_tracks_generator script to /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks
+
+Installed /home/gustavo/eufs_sim_teste/build/eufs_tracks
+running install_data
+copying models/ground_plane/model.sdf -> /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/ground_plane

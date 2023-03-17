@@ -1,0 +1,75 @@
+[0.042s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_models': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages /usr/bin/cmake /home/gustavo/eufs_sim_teste/eufs_sim/eufs_models -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_sim_teste/install/eufs_models
+[0.109s] -- The C compiler identification is GNU 9.4.0
+[0.156s] -- The CXX compiler identification is GNU 9.4.0
+[0.159s] -- Check for working C compiler: /usr/bin/cc
+[0.213s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.214s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.344s] -- Detecting CXX compiler ABI info
+[0.419s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.448s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.448s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.509s] -- Found eufs_msgs: 0.0.0 (/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.531s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.588s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.607s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.035s] -- Configuring done
+[1.040s] -- Generating done
+[1.041s] -- Build files have been written to: /home/gustavo/eufs_sim_teste/build/eufs_models
+[1.047s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_models' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages /usr/bin/cmake /home/gustavo/eufs_sim_teste/eufs_sim/eufs_models -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_sim_teste/install/eufs_models
+[1.050s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_models': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_models -- -j8 -l8
+[1.081s] [35m[1mScanning dependencies of target eufs_models[0m
+[1.091s] [ 75%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/dynamic_bicycle.cpp.o[0m
+[1.091s] [ 75%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/point_mass.cpp.o[0m
+[1.091s] [ 75%] [32mBuilding CXX object CMakeFiles/eufs_models.dir/src/vehicle_model.cpp.o[0m
+[1.799s] [100%] [32m[1mLinking CXX static library libeufs_models.a[0m
+[1.827s] [100%] Built target eufs_models
+[1.836s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_models' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_models -- -j8 -l8
+[1.860s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_models': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_models
+[1.867s] -- Install configuration: ""
+[1.867s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/library_path.sh
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/library_path.dsv
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/dynamic_bicycle.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/eufs_models.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/noise.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/point_mass.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_input.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_model.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_param.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_state.hpp
+[1.868s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/lib/libeufs_models.a
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/package_run_dependencies/eufs_models
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/parent_prefix_path/eufs_models
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/ament_prefix_path.sh
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/ament_prefix_path.dsv
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/path.sh
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/path.dsv
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.bash
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.sh
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.zsh
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.dsv
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.dsv
+[1.869s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/packages/eufs_models
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport-noconfig.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_libraries-extras.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_targets-extras.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig-version.cmake
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.xml
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/models/models.txt
+[1.870s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/config/noise.yaml
+[1.876s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_models' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_models

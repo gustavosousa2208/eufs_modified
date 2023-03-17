@@ -1,0 +1,580 @@
+[0.287s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.287s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5a39dc18b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5a39dc18b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5a39dc1e20>)
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.308s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gustavo/eufs_sim_teste'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_msgs) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_msgs' with type 'ros.ament_cmake' and name 'eufs_msgs'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/build) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_launcher) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_launcher' with type 'ros.ament_python' and name 'eufs_launcher'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_models) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_models' with type 'ros.ament_cmake' and name 'eufs_models'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_plugins) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_plugins' with type 'ros.ament_cmake' and name 'eufs_plugins'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_racecar) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_racecar' with type 'ros.ament_python' and name 'eufs_racecar'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_rqt) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_rqt' with type 'ros.ament_python' and name 'eufs_rqt'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_sensors) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_sensors' with type 'ros.ament_cmake' and name 'eufs_sensors'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/eufs_tracks) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'eufs_sim/eufs_tracks' with type 'ros.ament_python' and name 'eufs_tracks'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/install) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(eufs_sim/log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.353s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/gustavo/eufs_sim_teste/install
+[0.354s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/galactic
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'eufs_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_msgs', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'eufs_racecar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_racecar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_racecar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_racecar', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_racecar', 'symlink_install': True, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'eufs_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_sensors', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_sensors', 'symlink_install': True, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'eufs_tracks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_tracks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_tracks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_tracks', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks', 'symlink_install': True, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'eufs_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_launcher', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_launcher', 'symlink_install': True, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'eufs_models' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_models' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_models', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_models', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_models', 'symlink_install': True, 'test_result_base': None}
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'cmake_target' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'cmake_clean_first' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'cmake_force_configure' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'ament_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'eufs_rqt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.415s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_rqt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_rqt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_rqt', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt', 'symlink_install': True, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'eufs_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'eufs_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gustavo/eufs_sim_teste/build/eufs_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gustavo/eufs_sim_teste/install/eufs_plugins', 'merge_install': False, 'path': '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.418s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_msgs' with build type 'ament_cmake'
+[0.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gustavo/eufs_sim_teste/eufs_msgs'
+[0.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks' with build type 'ament_python'
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_tracks', 'ament_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/ament_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/ament_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/ament_prefix_path.sh'
+[0.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_racecar' with build type 'ament_python'
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_racecar', 'ament_prefix_path')
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/hook/ament_prefix_path.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/hook/ament_prefix_path.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/hook/ament_prefix_path.sh'
+[0.454s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.454s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_sensors' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_sensors'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_msgs -- -j8 -l8
+[0.714s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks'
+[0.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.932s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_racecar'
+[0.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_sensors -- -j8 -l8
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_msgs -- -j8 -l8
+[0.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_sensors -- -j8 -l8
+[1.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_sensors
+[1.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_sensors)
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_sensors
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors' for CMake module files
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors' for CMake config files
+[1.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_sensors', 'cmake_prefix_path')
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/hook/cmake_prefix_path.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/hook/cmake_prefix_path.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/hook/cmake_prefix_path.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/bin'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/lib/pkgconfig/eufs_sensors.pc'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/lib/python3.8/site-packages'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/bin'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.bash'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.zsh'
+[1.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/colcon-core/packages/eufs_sensors)
+[1.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_sensors)
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors' for CMake module files
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors' for CMake config files
+[1.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_sensors', 'cmake_prefix_path')
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/hook/cmake_prefix_path.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/hook/cmake_prefix_path.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/hook/cmake_prefix_path.sh'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/bin'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/lib/pkgconfig/eufs_sensors.pc'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/lib/python3.8/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_sensors/bin'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.sh'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.bash'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.zsh'
+[1.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_sensors/share/colcon-core/packages/eufs_sensors)
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_racecar': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_racecar/build --no-deps install_data
+[1.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_tracks': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_tracks/build --no-deps install_data
+[1.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_msgs
+[1.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_msgs)
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs' for CMake module files
+[1.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_msgs
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs' for CMake config files
+[1.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_msgs', 'cmake_prefix_path')
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/cmake_prefix_path.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/cmake_prefix_path.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/cmake_prefix_path.sh'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib'
+[1.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_msgs', 'ld_library_path_lib')
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/ld_library_path_lib.ps1'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/ld_library_path_lib.dsv'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/ld_library_path_lib.sh'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/bin'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/pkgconfig/eufs_msgs.pc'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages'
+[1.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_msgs', 'pythonpath')
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/pythonpath.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/pythonpath.dsv'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/pythonpath.sh'
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/bin'
+[1.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.dsv'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.sh'
+[1.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.bash'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.zsh'
+[1.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/colcon-core/packages/eufs_msgs)
+[1.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_racecar', 'pythonpath_develop')
+[1.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_racecar/share/eufs_racecar/hook/pythonpath_develop.ps1'
+[1.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_racecar' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_racecar/build --no-deps install_data
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/build/eufs_racecar/share/eufs_racecar/hook/pythonpath_develop.dsv'
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_racecar/share/eufs_racecar/hook/pythonpath_develop.sh'
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_racecar' for CMake module files
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_racecar' for CMake config files
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_racecar/bin'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/pkgconfig/eufs_racecar.pc'
+[1.744s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages'
+[1.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_racecar', 'pythonpath')
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/hook/pythonpath.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/hook/pythonpath.dsv'
+[1.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/hook/pythonpath.sh'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_racecar/bin'
+[1.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_racecar)
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/package.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/package.dsv'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/package.sh'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/package.bash'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/package.zsh'
+[1.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_racecar/share/colcon-core/packages/eufs_racecar)
+[1.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_tracks', 'pythonpath_develop')
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_tracks/share/eufs_tracks/hook/pythonpath_develop.ps1'
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_tracks' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_tracks/build --no-deps install_data
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/build/eufs_tracks/share/eufs_tracks/hook/pythonpath_develop.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_tracks/share/eufs_tracks/hook/pythonpath_develop.sh'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks' for CMake module files
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks' for CMake config files
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/bin'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/pkgconfig/eufs_tracks.pc'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages'
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_tracks', 'pythonpath')
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/pythonpath.ps1'
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/pythonpath.dsv'
+[1.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/hook/pythonpath.sh'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_tracks/bin'
+[1.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_tracks)
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.ps1'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.sh'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.bash'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/package.zsh'
+[1.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_tracks/share/colcon-core/packages/eufs_tracks)
+[1.770s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_launcher' with build type 'ament_python'
+[1.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_launcher', 'ament_prefix_path')
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/hook/ament_prefix_path.ps1'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/hook/ament_prefix_path.dsv'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/hook/ament_prefix_path.sh'
+[1.777s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.777s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.992s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_launcher'
+[1.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_msgs)
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs' for CMake module files
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs' for CMake config files
+[2.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_msgs', 'cmake_prefix_path')
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/cmake_prefix_path.ps1'
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/cmake_prefix_path.dsv'
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/cmake_prefix_path.sh'
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib'
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_msgs', 'ld_library_path_lib')
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/ld_library_path_lib.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/ld_library_path_lib.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/ld_library_path_lib.sh'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/bin'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/pkgconfig/eufs_msgs.pc'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages'
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_msgs', 'pythonpath')
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/pythonpath.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/pythonpath.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/hook/pythonpath.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_msgs/bin'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.ps1'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.dsv'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.sh'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.bash'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/package.zsh'
+[2.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/colcon-core/packages/eufs_msgs)
+[2.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_models' with build type 'ament_cmake'
+[2.088s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_models'
+[2.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.092s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.102s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt' with build type 'ament_python'
+[2.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_rqt', 'ament_prefix_path')
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/hook/ament_prefix_path.ps1'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/hook/ament_prefix_path.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/hook/ament_prefix_path.sh'
+[2.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_models': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_models -- -j8 -l8
+[2.348s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt'
+[2.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_launcher': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_launcher/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_launcher/build --no-deps install_data
+[2.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_models' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_models -- -j8 -l8
+[2.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_models': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_models
+[2.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_models)
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models' for CMake module files
+[2.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_models' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_models
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models' for CMake config files
+[2.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_models', 'cmake_prefix_path')
+[2.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/hook/cmake_prefix_path.ps1'
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/hook/cmake_prefix_path.dsv'
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/hook/cmake_prefix_path.sh'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/lib'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/bin'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/lib/pkgconfig/eufs_models.pc'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/lib/python3.8/site-packages'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/bin'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.ps1'
+[2.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.dsv'
+[2.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.sh'
+[2.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.bash'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.zsh'
+[2.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_models/share/colcon-core/packages/eufs_models)
+[2.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_models)
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models' for CMake module files
+[2.453s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models' for CMake config files
+[2.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_models', 'cmake_prefix_path')
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/hook/cmake_prefix_path.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/hook/cmake_prefix_path.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/hook/cmake_prefix_path.sh'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/lib'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/bin'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/lib/pkgconfig/eufs_models.pc'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/lib/python3.8/site-packages'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_models/bin'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.ps1'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.dsv'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.sh'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.bash'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.zsh'
+[2.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_models/share/colcon-core/packages/eufs_models)
+[2.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_plugins' with build type 'ament_cmake'
+[2.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_plugins'
+[2.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_plugins -- -j8 -l8
+[2.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_plugins -- -j8 -l8
+[2.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_plugins
+[2.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_plugins)
+[2.636s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins' for CMake module files
+[2.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_plugins
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins' for CMake config files
+[2.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_plugins', 'cmake_prefix_path')
+[2.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/cmake_prefix_path.ps1'
+[2.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/cmake_prefix_path.dsv'
+[2.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/cmake_prefix_path.sh'
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib'
+[2.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_plugins', 'ld_library_path_lib')
+[2.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/ld_library_path_lib.ps1'
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/ld_library_path_lib.dsv'
+[2.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/ld_library_path_lib.sh'
+[2.650s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/bin'
+[2.650s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/pkgconfig/eufs_plugins.pc'
+[2.650s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/python3.8/site-packages'
+[2.650s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/bin'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.ps1'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.dsv'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.sh'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.bash'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.zsh'
+[2.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/colcon-core/packages/eufs_plugins)
+[2.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_plugins)
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins' for CMake module files
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins' for CMake config files
+[2.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_plugins', 'cmake_prefix_path')
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/cmake_prefix_path.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/cmake_prefix_path.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/cmake_prefix_path.sh'
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib'
+[2.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_plugins', 'ld_library_path_lib')
+[2.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/ld_library_path_lib.ps1'
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/ld_library_path_lib.dsv'
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/hook/ld_library_path_lib.sh'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/bin'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/pkgconfig/eufs_plugins.pc'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/python3.8/site-packages'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_plugins/bin'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.dsv'
+[2.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.sh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.bash'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.zsh'
+[2.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_plugins/share/colcon-core/packages/eufs_plugins)
+[2.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build --no-deps install_data
+[2.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_launcher', 'pythonpath_develop')
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_launcher/src/share/eufs_launcher/hook/pythonpath_develop.ps1'
+[2.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_launcher' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_launcher/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_launcher/build --no-deps install_data
+[2.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/build/eufs_launcher/src/share/eufs_launcher/hook/pythonpath_develop.dsv'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_launcher/src/share/eufs_launcher/hook/pythonpath_develop.sh'
+[2.815s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_launcher' for CMake module files
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_launcher' for CMake config files
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_launcher/bin'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/pkgconfig/eufs_launcher.pc'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages'
+[2.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_launcher', 'pythonpath')
+[2.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/hook/pythonpath.ps1'
+[2.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/hook/pythonpath.dsv'
+[2.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/hook/pythonpath.sh'
+[2.820s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_launcher/bin'
+[2.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_launcher)
+[2.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/package.ps1'
+[2.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/package.dsv'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/package.sh'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/package.bash'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/eufs_launcher/package.zsh'
+[2.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_launcher/share/colcon-core/packages/eufs_launcher)
+[3.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_rqt', 'pythonpath_develop')
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_rqt/src/share/eufs_rqt/hook/pythonpath_develop.ps1'
+[3.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt' returned '0': CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build --no-deps install_data
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/build/eufs_rqt/src/share/eufs_rqt/hook/pythonpath_develop.dsv'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/build/eufs_rqt/src/share/eufs_rqt/hook/pythonpath_develop.sh'
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_rqt' for CMake module files
+[3.105s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_rqt' for CMake config files
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_rqt/bin'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/pkgconfig/eufs_rqt.pc'
+[3.106s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages'
+[3.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('eufs_rqt', 'pythonpath')
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/hook/pythonpath.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/hook/pythonpath.dsv'
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/hook/pythonpath.sh'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/gustavo/eufs_sim_teste/install/eufs_rqt/bin'
+[3.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eufs_rqt)
+[3.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/package.ps1'
+[3.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/package.dsv'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/package.sh'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/package.bash'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/eufs_rqt/package.zsh'
+[3.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gustavo/eufs_sim_teste/install/eufs_rqt/share/colcon-core/packages/eufs_rqt)
+[3.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.119s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.119s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.119s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.131s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.ps1'
+[3.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gustavo/eufs_sim_teste/install/_local_setup_util_ps1.py'
+[3.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.sh'
+[3.138s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gustavo/eufs_sim_teste/install/_local_setup_util_sh.py'
+[3.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.sh'
+[3.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.bash'
+[3.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.bash'
+[3.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gustavo/eufs_sim_teste/install/local_setup.zsh'
+[3.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gustavo/eufs_sim_teste/install/setup.zsh'

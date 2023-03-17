@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (-) JobUnselected: {'identifier': 'eufs_launcher'}
+[0.001648] (-) JobUnselected: {'identifier': 'eufs_models'}
+[0.001682] (-) JobUnselected: {'identifier': 'eufs_msgs'}
+[0.001695] (-) JobUnselected: {'identifier': 'eufs_plugins'}
+[0.001725] (-) JobUnselected: {'identifier': 'eufs_racecar'}
+[0.001735] (-) JobUnselected: {'identifier': 'eufs_rqt'}
+[0.001745] (-) JobUnselected: {'identifier': 'eufs_sensors'}
+[0.001758] (eufs_tracks) JobQueued: {'identifier': 'eufs_tracks', 'dependencies': OrderedDict()}
+[0.001772] (eufs_tracks) JobStarted: {'identifier': 'eufs_tracks'}
+[0.099799] (-) TimerEvent: {}
+[0.200167] (-) TimerEvent: {}
+[0.300493] (-) TimerEvent: {}
+[0.400792] (-) TimerEvent: {}
+[0.501050] (-) TimerEvent: {}
+[0.538099] (eufs_tracks) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/gustavo/eufs_sim_teste/build/eufs_tracks/build', '--no-deps', 'install_data'], 'cwd': '/home/gustavo/eufs_sim_teste/build/eufs_tracks', 'env': {'LC_TIME': 'pt_BR.UTF-8', 'USER': 'gustavo', 'SSH_AGENT_PID': '1483', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gustavo/eufs_sim_teste/install/eufs_plugins/lib:/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/gustavo', 'OLDPWD': '/home/gustavo/eufs_sim_teste/install', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/gustavo/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'pt_BR.UTF-8', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '1026', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '53919', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'COLCON_PREFIX_PATH': '/home/gustavo/eufs_sim_teste/install', 'LOGNAME': 'gustavo', 'JOURNAL_STREAM': '8:44832', 'WINDOWID': '37748740', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'EUFS_MASTER': '/home/gustavo/eufs_sim_teste', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'ALACRITTY_LOG': '/tmp/Alacritty-53919.log', 'TERM': 'alacritty', 'USERNAME': 'gustavo', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/gustavo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/gustavo/.fzf/bin', 'INVOCATION_ID': '3c417b9c8811411b845cdd0710a71de6', 'SESSION_MANAGER': 'local/gustavo-550XDA:@/tmp/.ICE-unix/1570,unix/gustavo-550XDA:/tmp/.ICE-unix/1570', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': '', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic', 'LC_NAME': 'pt_BR.UTF-8', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/gustavo/eufs_sim_teste/build/eufs_tracks', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'LC_NUMERIC': 'pt_BR.UTF-8', 'PYTHONPATH': '/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_launcher/src:/home/gustavo/eufs_sim_teste/install/eufs_launcher/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_rqt/src:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/build/eufs_racecar:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/gustavo/eufs_sim_teste/install/eufs_sensors:/home/gustavo/eufs_sim_teste/install/eufs_plugins:/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs'}, 'shell': False}
+[0.601188] (-) TimerEvent: {}
+[0.701557] (-) TimerEvent: {}
+[0.738588] (eufs_tracks) StdoutLine: {'line': b'running develop\n'}
+[0.801657] (-) TimerEvent: {}
+[0.851222] (eufs_tracks) StdoutLine: {'line': b'running egg_info\n'}
+[0.851543] (eufs_tracks) StdoutLine: {'line': b'writing eufs_tracks.egg-info/PKG-INFO\n'}
+[0.851679] (eufs_tracks) StdoutLine: {'line': b'writing dependency_links to eufs_tracks.egg-info/dependency_links.txt\n'}
+[0.851780] (eufs_tracks) StdoutLine: {'line': b'writing entry points to eufs_tracks.egg-info/entry_points.txt\n'}
+[0.851845] (eufs_tracks) StdoutLine: {'line': b'writing requirements to eufs_tracks.egg-info/requires.txt\n'}
+[0.851945] (eufs_tracks) StdoutLine: {'line': b'writing top-level names to eufs_tracks.egg-info/top_level.txt\n'}
+[0.854594] (eufs_tracks) StdoutLine: {'line': b"reading manifest file 'eufs_tracks.egg-info/SOURCES.txt'\n"}
+[0.856117] (eufs_tracks) StdoutLine: {'line': b"writing manifest file 'eufs_tracks.egg-info/SOURCES.txt'\n"}
+[0.880683] (eufs_tracks) StdoutLine: {'line': b'running build_ext\n'}
+[0.880885] (eufs_tracks) StdoutLine: {'line': b'Creating /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages/eufs-tracks.egg-link (link to .)\n'}
+[0.881928] (eufs_tracks) StdoutLine: {'line': b'Installing eufs_tracks_converter script to /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks\n'}
+[0.882591] (eufs_tracks) StdoutLine: {'line': b'Installing eufs_tracks_generator script to /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks\n'}
+[0.882835] (eufs_tracks) StdoutLine: {'line': b'\n'}
+[0.882924] (eufs_tracks) StdoutLine: {'line': b'Installed /home/gustavo/eufs_sim_teste/build/eufs_tracks\n'}
+[0.882992] (eufs_tracks) StdoutLine: {'line': b'running install_data\n'}
+[0.901791] (-) TimerEvent: {}
+[0.910626] (eufs_tracks) CommandEnded: {'returncode': 0}
+[0.931030] (eufs_tracks) JobEnded: {'identifier': 'eufs_tracks', 'rc': 0}
+[0.931556] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.864s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_tracks': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages: /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_tracks/build
+[1.069s] running develop
+[1.164s] Note: you must uninstall or replace scripts manually!
+[1.184s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_tracks' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages: /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_tracks/build
+[1.186s] Invoking command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_tracks build --build-base /home/gustavo/eufs_sim_teste/build/eufs_tracks/build install --record /home/gustavo/eufs_sim_teste/build/eufs_tracks/install.log --single-version-externally-managed
+[1.360s] running egg_info
+[1.361s] writing ../../build/eufs_tracks/eufs_tracks.egg-info/PKG-INFO
+[1.361s] writing dependency_links to ../../build/eufs_tracks/eufs_tracks.egg-info/dependency_links.txt
+[1.361s] writing entry points to ../../build/eufs_tracks/eufs_tracks.egg-info/entry_points.txt
+[1.361s] writing requirements to ../../build/eufs_tracks/eufs_tracks.egg-info/requires.txt
+[1.361s] writing top-level names to ../../build/eufs_tracks/eufs_tracks.egg-info/top_level.txt
+[1.365s] reading manifest file '../../build/eufs_tracks/eufs_tracks.egg-info/SOURCES.txt'
+[1.367s] writing manifest file '../../build/eufs_tracks/eufs_tracks.egg-info/SOURCES.txt'
+[1.367s] running build
+[1.367s] running build_py
+[1.368s] running build_scripts
+[1.368s] running install
+[1.369s] running install_lib
+[1.371s] running install_data
+[1.375s] copying models/ground_plane/model.sdf -> /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[1.375s] copying models/ground_plane/ground_plane.material -> /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/models/ground_plane
+[1.376s] running install_egg_info
+[1.377s] removing '/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages/eufs_tracks-2.0.0-py3.8.egg-info' (and everything under it)
+[1.377s] Copying ../../build/eufs_tracks/eufs_tracks.egg-info to /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages/eufs_tracks-2.0.0-py3.8.egg-info
+[1.378s] running install_scripts
+[1.392s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks/eufs_tracks_converter to 775
+[1.392s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/eufs_tracks/eufs_tracks_generator to 775
+[1.394s] writing list of installed files to '/home/gustavo/eufs_sim_teste/build/eufs_tracks/install.log'
+[1.550s] Invoked command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_tracks' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_tracks/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_tracks/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_tracks build --build-base /home/gustavo/eufs_sim_teste/build/eufs_tracks/build install --record /home/gustavo/eufs_sim_teste/build/eufs_tracks/install.log --single-version-externally-managed

@@ -1,0 +1,61 @@
+[0.519s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar /usr/bin/cmake /home/gustavo/eufs_sim_teste/eufs_sim/eufs_sensors -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_sim_teste/install/eufs_sensors
+[0.565s] -- The C compiler identification is GNU 9.4.0
+[0.609s] -- The CXX compiler identification is GNU 9.4.0
+[0.615s] -- Check for working C compiler: /usr/bin/cc
+[0.674s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.675s] -- Detecting C compiler ABI info
+[0.734s] -- Detecting C compiler ABI info - done
+[0.741s] -- Detecting C compile features
+[0.742s] -- Detecting C compile features - done
+[0.744s] -- Check for working CXX compiler: /usr/bin/c++
+[0.808s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.809s] -- Detecting CXX compiler ABI info
+[0.874s] -- Detecting CXX compiler ABI info - done
+[0.883s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.885s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.905s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.905s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.972s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.052s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.053s] -- Added test 'lint_cmake' to check CMake code style
+[1.055s] -- Added test 'xmllint' to check XML markup files
+[1.059s] -- Configuring done
+[1.060s] -- Generating done
+[1.061s] -- Build files have been written to: /home/gustavo/eufs_sim_teste/build/eufs_sensors
+[1.071s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar /usr/bin/cmake /home/gustavo/eufs_sim_teste/eufs_sim/eufs_sensors -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_sim_teste/install/eufs_sensors
+[1.074s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_sensors -- -j8 -l8
+[1.111s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_sensors -- -j8 -l8
+[1.143s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_sensors
+[1.152s] -- Install configuration: ""
+[1.152s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/meshes
+[1.152s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_base_1.dae
+[1.152s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_base_2.dae
+[1.152s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/meshes/VLP16_scan.dae
+[1.152s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/meshes/antenna_3GO16.dae
+[1.153s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/meshes/antenna_3GO16.stl
+[1.153s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/meshes/zed.dae
+[1.153s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/urdf
+[1.153s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/urdf/VLP-16R.urdf.xacro
+[1.153s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/urdf/all_sensors.urdf.xacro
+[1.153s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/urdf/gps.urdf.xacro
+[1.153s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/urdf/imu.urdf.xacro
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/urdf/magnetometer.urdf.xacro
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/urdf/zed.urdf.xacro
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/ament_index/resource_index/package_run_dependencies/eufs_sensors
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/ament_index/resource_index/parent_prefix_path/eufs_sensors
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/environment/ament_prefix_path.sh
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/environment/ament_prefix_path.dsv
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/environment/path.sh
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/environment/path.dsv
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/local_setup.bash
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/local_setup.sh
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/local_setup.zsh
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/local_setup.dsv
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.dsv
+[1.154s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/ament_index/resource_index/packages/eufs_sensors
+[1.155s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.155s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/cmake/eufs_sensorsConfig.cmake
+[1.155s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/cmake/eufs_sensorsConfig-version.cmake
+[1.155s] -- Installing: /home/gustavo/eufs_sim_teste/install/eufs_sensors/share/eufs_sensors/package.xml
+[1.157s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/home/gustavo/eufs_sim_teste/install/eufs_launcher:/home/gustavo/eufs_sim_teste/install/eufs_tracks:/home/gustavo/eufs_sim_teste/install/eufs_rqt:/home/gustavo/eufs_sim_teste/install/eufs_racecar /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_sensors

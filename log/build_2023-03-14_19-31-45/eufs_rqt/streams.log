@@ -1,0 +1,34 @@
+[0.525s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build
+[0.774s] running develop
+[0.904s] Removing /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs-rqt.egg-link (link to src)
+[0.904s] Note: you must uninstall or replace scripts manually!
+[0.925s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build
+[0.928s] Invoking command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_rqt build --build-base /home/gustavo/eufs_sim_teste/build/eufs_rqt/build install --record /home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log --single-version-externally-managed
+[1.175s] running egg_info
+[1.176s] writing ../../build/eufs_rqt/eufs_rqt.egg-info/PKG-INFO
+[1.176s] writing dependency_links to ../../build/eufs_rqt/eufs_rqt.egg-info/dependency_links.txt
+[1.176s] writing requirements to ../../build/eufs_rqt/eufs_rqt.egg-info/requires.txt
+[1.176s] writing top-level names to ../../build/eufs_rqt/eufs_rqt.egg-info/top_level.txt
+[1.180s] reading manifest file '../../build/eufs_rqt/eufs_rqt.egg-info/SOURCES.txt'
+[1.180s] adding license file 'LICENSE'
+[1.180s] writing manifest file '../../build/eufs_rqt/eufs_rqt.egg-info/SOURCES.txt'
+[1.180s] running build
+[1.180s] running build_py
+[1.181s] running build_scripts
+[1.181s] running install
+[1.181s] running install_lib
+[1.182s] creating /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt
+[1.182s] copying /home/gustavo/eufs_sim_teste/build/eufs_rqt/build/lib/eufs_rqt/EUFSRobotSteeringGUI.py -> /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt
+[1.182s] copying /home/gustavo/eufs_sim_teste/build/eufs_rqt/build/lib/eufs_rqt/MissionControlGUI.py -> /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt
+[1.182s] copying /home/gustavo/eufs_sim_teste/build/eufs_rqt/build/lib/eufs_rqt/__init__.py -> /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt
+[1.183s] byte-compiling /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt/EUFSRobotSteeringGUI.py to EUFSRobotSteeringGUI.cpython-38.pyc
+[1.185s] byte-compiling /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt/MissionControlGUI.py to MissionControlGUI.cpython-38.pyc
+[1.186s] byte-compiling /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt/__init__.py to __init__.cpython-38.pyc
+[1.186s] running install_data
+[1.187s] running install_egg_info
+[1.188s] Copying ../../build/eufs_rqt/eufs_rqt.egg-info to /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt-2.0.0-py3.8.egg-info
+[1.188s] running install_scripts
+[1.200s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt/eufs_robot_steering_gui to 775
+[1.200s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt/mission_control_gui to 775
+[1.202s] writing list of installed files to '/home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log'
+[1.225s] Invoked command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_rqt build --build-base /home/gustavo/eufs_sim_teste/build/eufs_rqt/build install --record /home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log --single-version-externally-managed

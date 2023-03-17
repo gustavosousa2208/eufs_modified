@@ -1,0 +1,23 @@
+[0.596s] Invoking command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_rqt build --build-base /home/gustavo/eufs_sim_teste/build/eufs_rqt/build install --record /home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log --single-version-externally-managed
+[0.830s] running egg_info
+[0.830s] writing ../../build/eufs_rqt/eufs_rqt.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../build/eufs_rqt/eufs_rqt.egg-info/dependency_links.txt
+[0.831s] writing requirements to ../../build/eufs_rqt/eufs_rqt.egg-info/requires.txt
+[0.831s] writing top-level names to ../../build/eufs_rqt/eufs_rqt.egg-info/top_level.txt
+[0.834s] reading manifest file '../../build/eufs_rqt/eufs_rqt.egg-info/SOURCES.txt'
+[0.834s] adding license file 'LICENSE'
+[0.834s] writing manifest file '../../build/eufs_rqt/eufs_rqt.egg-info/SOURCES.txt'
+[0.834s] running build
+[0.834s] running build_py
+[0.834s] running build_scripts
+[0.834s] running install
+[0.835s] running install_lib
+[0.836s] running install_data
+[0.837s] running install_egg_info
+[0.838s] removing '/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt-2.0.0-py3.8.egg-info' (and everything under it)
+[0.838s] Copying ../../build/eufs_rqt/eufs_rqt.egg-info to /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs_rqt-2.0.0-py3.8.egg-info
+[0.838s] running install_scripts
+[0.853s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt/eufs_robot_steering_gui to 775
+[0.853s] changing mode of /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt/mission_control_gui to 775
+[0.854s] writing list of installed files to '/home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log'
+[0.878s] Invoked command in '/home/gustavo/eufs_sim_teste/eufs_sim/eufs_rqt' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eufs_rqt build --build-base /home/gustavo/eufs_sim_teste/build/eufs_rqt/build install --record /home/gustavo/eufs_sim_teste/build/eufs_rqt/install.log --single-version-externally-managed

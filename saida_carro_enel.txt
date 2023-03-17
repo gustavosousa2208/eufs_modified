@@ -1,0 +1,85 @@
+❯ ros2 launch eufs_launcher eufs_launcher.launch.py
+[INFO] [launch]: All log files can be found below /home/gustavo/.ros/log/2023-03-09-15-25-47-032526-gustavo-550XDA-278412
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [eufs_launcher-1]: process started with pid [278414]
+[eufs_launcher-1] [INFO] [1678386350.772603488] [eufs_launcher]: Launching Nodes...
+[eufs_launcher-1] [INFO] [1678386350.772986337] [eufs_launcher]: Vehicle model: DynamicBicycle
+[eufs_launcher-1] [INFO] [1678386350.773247553] [eufs_launcher]: Command mode: acceleration
+[eufs_launcher-1] [INFO] [1678386350.773445322] [eufs_launcher]: Preset: configDry.yaml
+[eufs_launcher-1] [INFO] [1678386350.773647246] [eufs_launcher]: Robot description file: carro_enel
+[eufs_launcher-1] [INFO] [1678386350.774042477] [eufs_launcher]: Launch file: None
+[eufs_launcher-1] [INFO] [1678386350.774277848] [eufs_launcher]: Checkbox enabled: dict_keys(['rviz:=true'])
+[eufs_launcher-1] [INFO] [1678386350.774477356] [eufs_launcher]: Checkbox enabled: dict_keys(['launch_group:=no_perception'])
+[eufs_launcher-1] [INFO] [1678386350.774697550] [eufs_launcher]: Checkbox enabled: dict_keys(['gazebo_gui:=true'])
+[eufs_launcher-1] [INFO] [1678386350.774898738] [eufs_launcher]: Checkbox disabled: dict_keys(['publish_gt_tf:=false'])
+[eufs_launcher-1] [INFO] [1678386350.775135588] [eufs_launcher]: Checkbox enabled: dict_keys(['pub_ground_truth:=true'])
+[eufs_launcher-1] [INFO] [1678386350.775385731] [eufs_launcher]: Command: ros2 launch eufs_launcher simulation.launch.py use_sim_time:=true track:=small_track vehicleModel:=DynamicBicycle commandMode:=acceleration vehicleModelConfig:=configDry.yaml robot_name:=carro_enel rviz:=true launch_group:=no_perception gazebo_gui:=true publish_gt_tf:=false pub_ground_truth:=true
+[eufs_launcher-1] [INFO] [1678386350.779377002] [eufs_launcher]: No additional launch file will be launched.
+[eufs_launcher-1] [INFO] [launch]: All log files can be found below /home/gustavo/.ros/log/2023-03-09-15-25-51-141056-gustavo-550XDA-278441
+[eufs_launcher-1] [INFO] [launch]: Default logging verbosity is set to INFO
+[eufs_launcher-1] [INFO] [gzserver-1]: process started with pid [278448]
+[eufs_launcher-1] [INFO] [gzclient   -2]: process started with pid [278450]
+[eufs_launcher-1] [INFO] [rviz2-3]: process started with pid [278453]
+[eufs_launcher-1] [INFO] [rqt_gui-4]: process started with pid [278456]
+[eufs_launcher-1] [INFO] [spawn_entity.py-5]: process started with pid [278458]
+[eufs_launcher-1] [INFO] [joint_state_publisher-6]: process started with pid [278460]
+[eufs_launcher-1] [INFO] [robot_state_publisher-7]: process started with pid [278462]
+[eufs_launcher-1] [robot_state_publisher-7] Link chassis had 10 children
+[eufs_launcher-1] [robot_state_publisher-7] Link gps_base_link had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link left_steering_hinge had 1 children
+[eufs_launcher-1] [robot_state_publisher-7] Link left_front_wheel had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link left_rear_wheel had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link right_rear_wheel had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link right_steering_hinge had 1 children
+[eufs_launcher-1] [robot_state_publisher-7] Link right_front_wheel had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link sbg_base_link had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link sbg_imu_base_link had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link velodyne_base_link had 1 children
+[eufs_launcher-1] [robot_state_publisher-7] Link velodyne had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link zed_camera_center had 3 children
+[eufs_launcher-1] [robot_state_publisher-7] Link zed_depth_camera_frame had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link zed_left_camera_frame had 1 children
+[eufs_launcher-1] [robot_state_publisher-7] Link zed_left_camera_optical_frame had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link zed_right_camera_frame had 1 children
+[eufs_launcher-1] [robot_tate_publisher-7] Link zed_right_camera_optical_frame had 0 children
+[eufs_launcher-1] [robot_state_publisher-7] Link zed_imu_base_link had 0 children
+[eufs_launcher-1] [rviz2-3] [INFO] [1678386352.441349946] [rviz2]: Stereo is NOT SUPPORTED
+[eufs_launcher-1] [rviz2-3] [INFO] [1678386352.441438201] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[eufs_launcher-1] [ERROR] [gzserver-1]: process has died [pid 278448, exit code 255, cmd 'gzserver /home/gustavo/eufs_sim_teste/install/eufs_tracks/share/eufs_tracks/worlds/small_track.world                                                                      -s libgazebo_ros_init.so   -s libgazebo_ros_factory.so   -s libgazebo_ros_force_system.so       '].
+[eufs_launcher-1] [spawn_entity.py-5] [ERROR] [1678386352.460571799] [spawn_robot]: Spawn service failed. Exiting.
+[eufs_launcher-1] [rviz2-3] [INFO] [1678386352.461756446] [rviz2]: Stereo is NOT SUPPORTED
+[eufs_launcher-1] [rviz2-3] [ERROR] [1678386352.536339017] [rviz2]: PluginlibFactory: The plugin for class 'eufs_rviz_plugins/ConeArrayWithCovariance' failed to load. Error: According to the loaded plugin descriptions the class eufs_rviz_plugins/ConeArrayWithCovariance with base class type rviz_common::Display does not exist. Declared types are  rviz_default_plugins/Axes rviz_default_plugins/Camera rviz_default_plugins/FluidPressure rviz_default_plugins/Grid rviz_default_plugins/GridCells rviz_default_plugins/Illuminance rviz_default_plugins/Image rviz_default_plugins/InteractiveMarkers rviz_default_plugins/LaserScan rviz_default_plugins/Map rviz_default_plugins/Marker rviz_default_plugins/MarkerArray rviz_default_plugins/Odometry rviz_default_plugins/Path rviz_default_plugins/PointCloud rviz_default_plugins/PointCloud2 rviz_default_plugins/PointStamped rviz_default_plugins/Polygon rviz_default_plugins/Pose rviz_default_plugins/PoseArray rviz_default_plugins/PoseWithCovariance rviz_default_plugins/Range rviz_default_plugins/RelativeHumidity rviz_default_plugins/RobotModel rviz_default_plugins/TF rviz_default_plugins/Temperature rviz_default_plugins/Wrench
+[eufs_launcher-1] [rviz2-3] [ERROR] [1678386352.536556898] [rviz2]: PluginlibFactory: The plugin for class 'eufs_rviz_plugins/ConeArrayWithCovariance' failed to load. Error: According to the loaded plugin descriptions the class eufs_rviz_plugins/ConeArrayWithCovariance with base class type rviz_common::Display does not exist. Declared types are  rviz_default_plugins/Axes rviz_default_plugins/Camera rviz_default_plugins/FluidPressure rviz_default_plugins/Grid rviz_default_plugins/GridCells rviz_default_plugins/Illuminance rviz_default_plugins/Image rviz_default_plugins/InteractiveMarkers rviz_default_plugins/LaserScan rviz_default_plugins/Map rviz_default_plugins/Marker rviz_default_plugins/MarkerArray rviz_default_plugins/Odometry rviz_default_plugins/Path rviz_default_plugins/PointCloud rviz_default_plugins/PointCloud2 rviz_default_plugins/PointStamped rviz_default_plugins/Polygon rviz_default_plugins/Pose rviz_default_plugins/PoseArray rviz_default_plugins/PoseWithCovariance rviz_default_plugins/Range rviz_default_plugins/RelativeHumidity rviz_default_plugins/RobotModel rviz_default_plugins/TF rviz_default_plugins/Temperature rviz_default_plugins/Wrench
+[eufs_launcher-1] [rviz2-3] [ERROR] [1678386352.536621117] [rviz2]: PluginlibFactory: The plugin for class 'eufs_rviz_plugins/ConeArrayWithCovariance' failed to load. Error: According to the loaded plugin descriptions the class eufs_rviz_plugins/ConeArrayWithCovariance with base class type rviz_common::Display does not exist. Declared types are  rviz_default_plugins/Axes rviz_default_plugins/Camera rviz_default_plugins/FluidPressure rviz_default_plugins/Grid rviz_default_plugins/GridCells rviz_default_plugins/Illuminance rviz_default_plugins/Image rviz_default_plugins/InteractiveMarkers rviz_default_plugins/LaserScan rviz_default_plugins/Map rviz_default_plugins/Marker rviz_default_plugins/MarkerArray rviz_default_plugins/Odometry rviz_default_plugins/Path rviz_default_plugins/PointCloud rviz_default_plugins/PointCloud2 rviz_default_plugins/PointStamped rviz_default_plugins/Polygon rviz_default_plugins/Pose rviz_default_plugins/PoseArray rviz_default_plugins/PoseWithCovariance rviz_default_plugins/Range rviz_default_plugins/RelativeHumidity rviz_default_plugins/RobotModel rviz_default_plugins/TF rviz_default_plugins/Temperature rviz_default_plugins/Wrench
+[eufs_launcher-1] [rviz2-3] [ERROR] [1678386352.536656972] [rviz2]: PluginlibFactory: The plugin for class 'eufs_rviz_plugins/ConeArrayWithCovariance' failed to load. Error: According to the loaded plugin descriptions the class eufs_rviz_plugins/ConeArrayWithCovariance with base class type rviz_common::Display does not exist. Declared types are  rviz_default_plugins/Axes rviz_default_plugins/Camera rviz_default_plugins/FluidPressure rviz_default_plugins/Grid rviz_default_plugins/GridCells rviz_default_plugins/Illuminance rviz_default_plugins/Image rviz_default_plugins/InteractiveMarkers rviz_default_plugins/LaserScan rviz_default_plugins/Map rviz_default_plugins/Marker rviz_default_plugins/MarkerArray rviz_default_plugins/Odometry rviz_default_plugins/Path rviz_default_plugins/PointCloud rviz_default_plugins/PointCloud2 rviz_default_plugins/PointStamped rviz_default_plugins/Polygon rviz_default_plugins/Pose rviz_default_plugins/PoseArray rviz_default_plugins/PoseWithCovariance rviz_default_plugins/Range rviz_default_plugins/RelativeHumidity rviz_default_plugins/RobotModel rviz_default_plugins/TF rviz_default_plugins/Temperature rviz_default_plugins/Wrench
+[eufs_launcher-1] [rviz2-3] [ERROR] [1678386352.536694167] [rviz2]: PluginlibFactory: The plugin for class 'eufs_rviz_plugins/WaypointArrayStamped' failed to load. Error: According to the loaded plugin descriptions the class eufs_rviz_plugins/WaypointArrayStamped with base class type rviz_common::Display does not exist. Declared types are  rviz_default_plugins/Axes rviz_default_plugins/Camera rviz_default_plugins/FluidPressure rviz_default_plugins/Grid rviz_default_plugins/GridCells rviz_default_plugins/Illuminance rviz_default_plugins/Image rviz_default_plugins/InteractiveMarkers rviz_default_plugins/LaserScan rviz_default_plugins/Map rviz_default_plugins/Marker rviz_default_plugins/MarkerArray rviz_default_plugins/Odometry rviz_default_plugins/Path rviz_default_plugins/PointCloud rviz_default_plugins/PointCloud2 rviz_default_plugins/PointStamped rviz_default_plugins/Polygon rviz_default_plugins/Pose rviz_default_plugins/PoseArray rviz_default_plugins/PoseWithCovariance rviz_default_plugins/Range rviz_default_plugins/RelativeHumidity rviz_default_plugins/RobotModel rviz_default_plugins/TF rviz_default_plugins/Temperature rviz_default_plugins/Wrench
+[eufs_launcher-1] [ERROR] [spawn_entity.py-5]: process has died [pid 278458, exit code 1, cmd '/opt/ros/galactic/lib/gazebo_ros/spawn_entity.py -entity eufs -file /home/gustavo/eufs_sim_teste/install/eufs_racecar/share/eufs_racecar/robots/carro_enel/robot.urdf -x -13.0 -y 10.3 -z 0.1 -R 0.0 -P 0.0 -Y 0.0 -spawn_service_timeout 60.0 --ros-args --log-level warn --ros-args -r __node:=spawn_robot'].
+[eufs_launcher-1] [gzclient   -2] ../src/intel/isl/isl.c:2105: FINISHME: ../src/intel/isl/isl.c:isl_surf_supports_ccs: CCS for 3D textures is disabled, but a workaround is available.
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[eufs_launcher-1] [INFO] [1678386365.648809560] [rclcpp]: signal_handler(signal_value=2)
+[eufs_launcher-1] [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[eufs_launcher-1] [INFO] [robot_state_publisher-7]: sending signal 'SIGINT' to process[robot_state_publisher-7]
+[eufs_launcher-1] [INFO] [joint_state_publisher-6]: sending signal 'SIGINT' to process[joint_state_publisher-6]
+[eufs_launcher-1] [INFO] [rqt_gui-4]: sending signal 'SIGINT' to process[rqt_gui-4]
+[eufs_launcher-1] [INFO] [rviz2-3]: sending signal 'SIGINT' to process[rviz2-3]
+[eufs_launcher-1] [INFO] [gzclient   -2]: sending signal 'SIGINT' to process[gzclient   -2]
+[eufs_launcher-1] [rqt_gui-4] [INFO] [1678386365.648797563] [rclcpp]: signal_handler(signal_value=2)
+[eufs_launcher-1] [rviz2-3] [INFO] [1678386365.648857545] [rclcpp]: signal_handler(signal_value=2)
+[eufs_launcher-1] [rqt_gui-4] [INFO] [1678386365.653958872] [rclcpp]: signal_handler(signal_value=2)
+[eufs_launcher-1] [rviz2-3] [INFO] [1678386365.654636516] [rclcpp]: signal_handler(signal_value=2)
+[eufs_launcher-1] [joint_state_publisher-6] Traceback (most recent call last):
+[eufs_launcher-1] [joint_state_publisher-6]   File "/opt/ros/galactic/lib/joint_state_publisher/joint_state_publisher", line 11, in <module>
+[eufs_launcher-1] [joint_state_publisher-6]     load_entry_point('joint-state-publisher==2.2.0', 'console_scripts', 'joint_state_publisher')()
+[eufs_launcher-1] [joint_state_publisher-6]   File "/opt/ros/galactic/lib/python3.8/site-packages/joint_state_publisher/joint_state_publisher.py", line 422, in main
+[eufs_launcher-1] [joint_state_publisher-6]     jsp.destroy_node()
+[eufs_launcher-1] [joint_state_publisher-6]   File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/node.py", line 1676, in destroy_node
+[eufs_launcher-1] [joint_state_publisher-6]     self.destroy_publisher(self.__publishers[0])
+[eufs_launcher-1] [joint_state_publisher-6]   File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/node.py", line 1557, in destroy_publisher
+[eufs_launcher-1] [joint_state_publisher-6]     publisher.destroy()
+[eufs_launcher-1] [joint_state_publisher-6]   File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/publisher.py", line 92, in destroy
+[eufs_launcher-1] [joint_state_publisher-6]     self.__publisher.destroy_when_not_in_use()
+[eufs_launcher-1] [joint_state_publisher-6] KeyboardInterrupt
+[eufs_launcher-1] [INFO] [robot_state_publisher-7]: process has finished cleanly [pid 278462]
+[eufs_launcher-1] [INFO] [1678386365.927785461] [eufs_launcher]: Shutdown Engaged...
+[eufs_launcher-1] [INFO] [1678386365.928175682] [eufs_launcher]: All nodes killed
+[INFO] [eufs_launcher-1]: process has finished cleanly [pid 278414]s

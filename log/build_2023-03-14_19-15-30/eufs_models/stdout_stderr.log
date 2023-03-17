@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found eufs_msgs: 0.0.0 (/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gustavo/eufs_sim_teste/build/eufs_models
+[100%] Built target eufs_models
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/library_path.sh
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/library_path.dsv
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/dynamic_bicycle.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/eufs_models.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/noise.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/point_mass.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_input.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_model.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_param.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/include/eufs_models/vehicle_state.hpp
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/package_run_dependencies/eufs_models
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/parent_prefix_path/eufs_models
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/ament_prefix_path.sh
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/ament_prefix_path.dsv
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/path.sh
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/environment/path.dsv
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.bash
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.sh
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.zsh
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/local_setup.dsv
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.dsv
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/ament_index/resource_index/packages/eufs_models
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig.cmake
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/eufs_modelsConfig-version.cmake
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/package.xml
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/models/models.txt
+-- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/config/noise.yaml
+-- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/lib/libeufs_models.a
+-- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport.cmake
+-- Installing: /home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake/export_eufs_modelsExport-noconfig.cmake

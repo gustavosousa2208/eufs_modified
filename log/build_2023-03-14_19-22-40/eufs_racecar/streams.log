@@ -1,0 +1,15 @@
+[0.866s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_racecar': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_racecar/build --no-deps install_data
+[1.146s] running develop
+[1.334s] running egg_info
+[1.334s] writing eufs_racecar.egg-info/PKG-INFO
+[1.334s] writing dependency_links to eufs_racecar.egg-info/dependency_links.txt
+[1.335s] writing requirements to eufs_racecar.egg-info/requires.txt
+[1.335s] writing top-level names to eufs_racecar.egg-info/top_level.txt
+[1.338s] reading manifest file 'eufs_racecar.egg-info/SOURCES.txt'
+[1.338s] writing manifest file 'eufs_racecar.egg-info/SOURCES.txt'
+[1.366s] running build_ext
+[1.367s] Creating /home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages/eufs-racecar.egg-link (link to .)
+[1.367s] 
+[1.367s] Installed /home/gustavo/eufs_sim_teste/build/eufs_racecar
+[1.367s] running install_data
+[1.585s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_racecar' returned '0': PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_racecar/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_racecar/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_racecar/build --no-deps install_data

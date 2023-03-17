@@ -1,0 +1,123 @@
+[0.010s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/gustavo/eufs_sim_teste/eufs_sim/eufs_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_sim_teste/install/eufs_plugins
+[0.022s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.080s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.087s] -- Found gazebo_dev: 3.5.2 (/opt/ros/galactic/share/gazebo_dev/cmake)
+[0.116s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.139s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.141s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.144s] -- Searching for dependencies of ignition-math6
+[0.146s] -- Looking for OGRE...
+[0.150s] -- Found Ogre Ghadamon (1.9.0)
+[0.151s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.159s] -- Looking for OGRE_Paging...
+[0.159s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.159s] -- Looking for OGRE_Terrain...
+[0.159s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.159s] -- Looking for OGRE_Property...
+[0.159s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.159s] -- Looking for OGRE_RTShaderSystem...
+[0.159s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.159s] -- Looking for OGRE_Volume...
+[0.159s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.160s] -- Looking for OGRE_Overlay...
+[0.161s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.266s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.266s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.267s] -- Searching for dependencies of ignition-transport8
+[0.277s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.281s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.285s] -- Checking for module 'libzmq >= 4'
+[0.296s] --   Found libzmq , version 4.3.2
+[0.327s] -- Checking for module 'uuid'
+[0.338s] --   Found uuid, version 2.34.0
+[0.364s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.365s] -- Searching for dependencies of ignition-msgs5
+[0.375s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.379s] -- Checking for module 'tinyxml2'
+[0.390s] --   Found tinyxml2, version 6.2.0
+[0.417s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.417s] -- Looking for ignition-common3 -- found version 3.14.2
+[0.417s] -- Searching for dependencies of ignition-common3
+[0.418s] -- Looking for dlfcn.h - found
+[0.418s] -- Looking for libdl - found
+[0.426s] -- Searching for <ignition-common3> component [graphics]
+[0.426s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[0.426s] -- Searching for dependencies of ignition-common3-graphics
+[0.426s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.427s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[0.427s] -- Searching for dependencies of ignition-fuel_tools4
+[0.447s] -- Checking for module 'jsoncpp'
+[0.458s] --   Found jsoncpp, version 1.7.4
+[0.485s] -- Checking for module 'libzip'
+[0.495s] --   Found libzip, version 1.5.1
+[0.521s] -- Looking for ignition-common3 -- found version 3.14.2
+[0.521s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.521s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.522s] -- Gazebo version: 11.11
+[0.522s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.547s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.658s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.671s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.780s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.804s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.854s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.861s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[0.867s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.093s] -- Found eufs_msgs: 0.0.0 (/home/gustavo/eufs_sim_teste/install/eufs_msgs/share/eufs_msgs/cmake)
+[1.294s] -- Found eufs_models: 2.0.0 (/home/gustavo/eufs_sim_teste/install/eufs_models/share/eufs_models/cmake)
+[1.309s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/galactic/share/ackermann_msgs/cmake)
+[1.333s] -- Found image_geometry: 3.1.3 (/opt/ros/galactic/share/image_geometry/cmake)
+[1.343s] -- Found yaml_cpp_vendor: 7.1.1 (/opt/ros/galactic/share/yaml_cpp_vendor/cmake)
+[1.474s] -- Configuring done
+[1.547s] -- Generating done
+[1.550s] -- Build files have been written to: /home/gustavo/eufs_sim_teste/build/eufs_plugins
+[1.560s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/gustavo/eufs_sim_teste/eufs_sim/eufs_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_sim_teste/install/eufs_plugins
+[1.563s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_plugins -- -j8 -l8
+[1.622s] [ 22%] Built target gazebo_ground_truth_cones
+[1.622s] [ 44%] Built target gazebo_camera_cones
+[1.627s] [ 77%] Built target gazebo_race_car_model
+[1.628s] [100%] Built target gazebo_simulate_bounding_boxes
+[1.637s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_plugins -- -j8 -l8
+[1.657s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_plugins
+[1.663s] -- Install configuration: ""
+[1.663s] -- Execute custom install script
+[1.664s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/urdf/eufs_plugins.gazebo.xacro
+[1.664s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[1.665s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[1.665s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/libgazebo_ground_truth_cones.so
+[1.665s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/libgazebo_camera_cones.so
+[1.665s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[1.666s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[1.666s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/libgazebo_race_car_model.so
+[1.666s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[1.666s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[1.666s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/lib/libgazebo_simulate_bounding_boxes.so
+[1.667s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.sh
+[1.667s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/library_path.dsv
+[1.667s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/ament_index/resource_index/package_run_dependencies/eufs_plugins
+[1.667s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/ament_index/resource_index/parent_prefix_path/eufs_plugins
+[1.667s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/ament_prefix_path.sh
+[1.667s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/ament_prefix_path.dsv
+[1.667s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/path.sh
+[1.668s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/environment/path.dsv
+[1.668s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/local_setup.bash
+[1.668s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/local_setup.sh
+[1.668s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/local_setup.zsh
+[1.668s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/local_setup.dsv
+[1.668s] -- Symlinking: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.dsv
+[1.675s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/ament_index/resource_index/packages/eufs_plugins
+[1.676s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[1.676s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.676s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.676s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/cmake/eufs_pluginsConfig.cmake
+[1.676s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/cmake/eufs_pluginsConfig-version.cmake
+[1.676s] -- Up-to-date symlink: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/package.xml
+[1.676s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/config
+[1.676s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/config/cone_recolor.yaml
+[1.676s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/config
+[1.677s] -- Up-to-date: /home/gustavo/eufs_sim_teste/install/eufs_plugins/share/eufs_plugins/config/boundingBoxes.yaml
+[1.682s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_plugins' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models:/home/gustavo/eufs_sim_teste/install/eufs_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_models/lib:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_plugins

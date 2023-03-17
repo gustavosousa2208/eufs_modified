@@ -1,0 +1,17 @@
+[0.546s] Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build --no-deps install_data
+[0.769s] running develop
+[0.896s] running egg_info
+[0.896s] writing src/eufs_rqt.egg-info/PKG-INFO
+[0.896s] writing dependency_links to src/eufs_rqt.egg-info/dependency_links.txt
+[0.896s] writing requirements to src/eufs_rqt.egg-info/requires.txt
+[0.896s] writing top-level names to src/eufs_rqt.egg-info/top_level.txt
+[0.898s] reading manifest file 'src/eufs_rqt.egg-info/SOURCES.txt'
+[0.899s] writing manifest file 'src/eufs_rqt.egg-info/SOURCES.txt'
+[0.922s] running build_ext
+[0.922s] Creating /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages/eufs-rqt.egg-link (link to src)
+[0.923s] Installing eufs_robot_steering_gui script to /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt
+[0.924s] Installing mission_control_gui script to /home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/eufs_rqt
+[0.924s] 
+[0.924s] Installed /home/gustavo/eufs_sim_teste/build/eufs_rqt/src
+[0.924s] running install_data
+[0.952s] Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_rqt' returned '0': AMENT_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs LD_LIBRARY_PATH=/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/eufs_sim_teste/build/eufs_rqt/prefix_override:/home/gustavo/eufs_sim_teste/install/eufs_rqt/lib/python3.8/site-packages:/home/gustavo/eufs_sim_teste/install/eufs_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gustavo/eufs_sim_teste/build/eufs_rqt/build --no-deps install_data
