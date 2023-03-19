@@ -1,0 +1,6 @@
+Invoking command in '/home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/gustavo/eufs_modified/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_modified/eufs_msgs/install/eufs_msgs
+Invoked command in '/home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/gustavo/eufs_modified/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/gustavo/eufs_modified/eufs_msgs/install/eufs_msgs
+Invoking command in '/home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs -- -j8 -l8
+Invoked command in '/home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs -- -j8 -l8
+Invoking command in '/home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs
+Invoked command in '/home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/gustavo/eufs_modified/eufs_msgs/build/eufs_msgs
