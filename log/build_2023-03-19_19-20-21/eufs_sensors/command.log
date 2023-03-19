@@ -1,0 +1,4 @@
+Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors': /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_sensors -- -j8 -l8
+Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors' returned '0': /usr/bin/cmake --build /home/gustavo/eufs_sim_teste/build/eufs_sensors -- -j8 -l8
+Invoking command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors': /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_sensors
+Invoked command in '/home/gustavo/eufs_sim_teste/build/eufs_sensors' returned '0': /usr/bin/cmake --install /home/gustavo/eufs_sim_teste/build/eufs_sensors
